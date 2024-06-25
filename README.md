@@ -33,7 +33,7 @@ To gain deeper insights into the unpacked code and understand the Trojan's behav
 After successfully unpacking the code through debugging, the next step involved dumping the memory to obtain a clean version of the unpacked executable. This process helps in analyzing the malware's actual behavior and payload.
 
 ### Steps:
-- **Memory Dumping:** We dumped the process memory using x64dbg once the unpacking was confirmed.
+- **Memory Dumping:** We dumped the process memory using x32dbg once the unpacking was confirmed.
 - **File Unmapping:** The dumped memory file was then unmapped to create a standalone executable that can be further analyzed or used for signature creation.
 
 ## Conclusion
